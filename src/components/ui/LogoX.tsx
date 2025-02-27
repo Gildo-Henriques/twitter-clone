@@ -1,10 +1,9 @@
 import Image from "next/image"
 type Props = {
-    carregar?: boolean;
     size: number;
     position: 1 | 2
 }
-export default function LogoX({carregar, size, position}:Props){
+export default function LogoX({size, position}:Props){
     return (
         <div className={`flex items-center 
         ${position === 1 && 'justify-start'}

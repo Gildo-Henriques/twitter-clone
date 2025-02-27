@@ -1,5 +1,5 @@
 import LogoX from "../components/ui/LogoX";
-import Button from "../components/ui/Button";
+
 
 export default function Page() {
   return (
