@@ -25,9 +25,9 @@ export default function SignOutForm(){
             <h3 className="mt-3 text-2xl font-medium text-center text-gray-200">
           Criar Sua Conta
         </h3>
-        <Input placeholder={"Nome"} onChange={t => setNome(t) }></Input>
-        <Input placeholder={"Email"} onChange={e => setEmail(e) }></Input>
-        <Input placeholder={"Senha"} onChange={s => setPassword(s) }></Input>
+        <Input placeholder={"Nome"} value={nome} onChange={t => setNome(t) }></Input>
+        <Input placeholder={"Email"} value={email} onChange={e => setEmail(e) }></Input>
+        <Input placeholder={"Senha"} value={password} onChange={s => setPassword(s) }></Input>
         <h2 className="text-white text-lg font-bold">Data de Nascimento</h2>
             <p className="text-gray-500">
               Isso não será exibido publicamente. Confirme sua própria idade,
