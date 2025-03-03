@@ -15,7 +15,7 @@ type Props = {
     descricao: string;
 
 }
-export default function Posts({pub, descricao, imagem, imagemProfile, size, sizeProfile, title, nome, titlePost}:Props){
+export default function Posts({pub, descricao, imagem, imagemProfile, title, nome, titlePost}:Props){
     return(
         <div className="flex flex-col lg:px-10 px-5 py-10 border-bottom space-y-5">
             <div className="flex justify-between">
