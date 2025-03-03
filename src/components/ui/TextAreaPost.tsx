@@ -8,9 +8,9 @@ export default function ProfileCard() {
       <div className="w-full pb-5 pt-10">
         <div className="flex w-full">
           <CardProfile
-            imagem="/Mara.jpg"
+            imagem="/shelby.jpg"
             title="Imagem do usuário"
-            size={45}
+            size={1}
             estilo={3}
           />
 

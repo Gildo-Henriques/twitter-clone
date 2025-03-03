@@ -20,7 +20,9 @@ export default function Posts({pub, descricao, imagem, imagemProfile, size, size
         <div className="flex flex-col lg:px-10 px-5 py-10 border-bottom space-y-5">
             <div className="flex justify-between">
                         <div className={`flex cursor-pointer space-x-2 items-start`}>
-                            <Image className="object-cover rounded-full" src={imagemProfile} width={sizeProfile} height={size} alt={title} />
+                            <div className="size-11 rounded-full overflow-hidden">
+                            <Image className="object-cover h-full w-full" src={imagemProfile} width={500} height={500}  alt={title} />
+                            </div>
                             <div className="flex flex-col">
                                 <h2 className="text-white text-base font-semibold">{nome}</h2>
                                 <span className="text-slate-500 text-xs">{descricao}</span>

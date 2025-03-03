@@ -17,8 +17,8 @@ export default function Page() {
         <Posts
         imagemProfile="/gildo.jpeg"
         sizeProfile={45}
-          imagem="/batman.jpg"
-          size={500}
+          imagem="/batman-a.jpg"
+          size={5000}
           title="imagem do perfil"
           titlePost="imagem do post"
           nome="Gildo Cabeto"
