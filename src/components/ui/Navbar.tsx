@@ -21,7 +21,7 @@ export default function Navbar(){
            <Notification />
            <span className="text-lg">Notification</span>
           </Link>
-          <Link href="/" className="flex text-white font-semibold items-center space-x-2">
+          <Link href="/mensagem" className="flex text-white font-semibold items-center space-x-2">
           <MensagensLogo />
           <span className="text-lg">Mensagem</span>
           </Link>

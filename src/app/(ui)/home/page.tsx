@@ -1,9 +1,10 @@
+import HeaderMobile from "../../../components/ui/HeaderMobile";
 import Posts from "../../../components/ui/Posts";
 import TextAreaPost from "../../../components/ui/TextAreaPost";
 export default function Page() {
   return (
     <main className="mx-auto flex-1 flex w-full flex-col ">
-      <header className="bg-black/50  backdrop-blur-md text-white border-bottom sticky flex items-center top-0 h-16 w-full">
+      <header className="bg-black/50  backdrop-blur-md text-white border-bottom sticky lg:flex hidden items-center top-0 h-16 w-full">
         <div className="flex-1 hover:bg-[#797878]/20 flex justify-center items-center h-full">
           <a href="">Para Você</a>
         </div>
@@ -11,8 +12,12 @@ export default function Page() {
           <a href="">Seguir a</a>
         </div>
       </header>
+      <HeaderMobile />
       {/* POST */}
+      <div className="lg:flex hidden">
       <TextAreaPost />
+      </div>
+
       <section className="flex flex-col">
         <Posts
         imagemProfile="/gildo.jpeg"

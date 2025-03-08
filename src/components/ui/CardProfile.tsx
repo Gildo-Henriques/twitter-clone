@@ -15,7 +15,7 @@ export default function CardProfile({imagem, size, title, nome, nomeProfile, des
         ${estilo === 1 && 'hover:bg-[#1c1c1c] w-full py-3 px-5 rounded-full items-center '}
         ${estilo === 2 && 'items-start px-5'}
         ${estilo === 3 && 'items-start'}
-        ${estilo === 4 && 'flex-col space-y-2'}`}>
+        ${estilo === 4 && 'flex-col justify-center items-center space-y-2'}`}>
             <div className={`bg-cover rounded-full overflow-hidden 
                 ${size === 1 && 'size-11'}
                 ${size === 2 && 'size-32'}`}>

@@ -1,4 +1,7 @@
 @tailwind base;
+.border-top{
+  border-top: 0.2px solid rgb(70, 70, 70);
+}
 .border-bottom{
   border-bottom: 0.2px solid rgb(70, 70, 70);
 }
